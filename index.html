@@ -26,6 +26,15 @@
   #join-form input { width: 5.2em; font: bold 44px "Courier New", monospace; text-align: center; text-transform: uppercase; letter-spacing: 0.15em;
     border: 4px solid #fff; border-radius: 12px; background: #222; color: #ffe04a; padding: 6px; }
   #join-form button { font: bold 30px "Courier New", monospace; border: 4px solid #fff; border-radius: 12px; background: #3a7d2a; color: #fff; padding: 0 20px; }
+  #code-panel { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 5; width: min(80vw, 640px); background: #0a0810; border: 3px solid #ff7a30;
+    padding: 14px 18px; color: #e8e0d0; font: bold 18px "Courier New", monospace; text-align: center; -webkit-user-select: text; user-select: text; }
+  #code-panel p { margin: 4px 0 10px; }
+  #code-panel textarea { width: 100%; box-sizing: border-box; height: 5.5em; font: bold 16px "Courier New", monospace; background: #222; color: #ffe04a; border: 2px solid #fff;
+    border-radius: 8px; padding: 8px; word-break: break-all; -webkit-user-select: text; user-select: text; }
+  #code-panel div { display: flex; gap: 14px; justify-content: center; margin-top: 12px; }
+  #code-panel button { font: bold 22px "Courier New", monospace; border: 3px solid #fff; border-radius: 10px; background: #3a7d2a; color: #fff; padding: 6px 22px; }
+  #code-panel button[type=button] { background: #6b4a2a; }
+  #code-panel .msg { color: #7fd0ff; min-height: 1.2em; margin-top: 10px; }
 </style>
 </head>
 <body>
